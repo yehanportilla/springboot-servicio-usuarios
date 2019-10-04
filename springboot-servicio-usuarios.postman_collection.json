@@ -139,6 +139,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "buscar por username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8090/api/usuarios/usuarios/search/buscar-username?nombre=andres",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"usuarios",
+						"usuarios",
+						"search",
+						"buscar-username"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "andres"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
