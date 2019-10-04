@@ -31,7 +31,7 @@ public class Usuario implements Serializable {
 	@Column(length = 60)
 	private String password;
 
-	private Boolean enable;
+	private Boolean enabled;
 	private String nombre;
 	private String apellido;
 
@@ -69,12 +69,12 @@ public class Usuario implements Serializable {
 		this.password = password;
 	}
 
-	public Boolean getEnable() {
-		return enable;
+	public Boolean getEnabled() {
+		return enabled;
 	}
 
-	public void setEnable(Boolean enable) {
-		this.enable = enable;
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
 	}
 
 	public String getNombre() {
