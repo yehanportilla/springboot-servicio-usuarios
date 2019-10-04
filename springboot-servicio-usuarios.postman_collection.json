@@ -146,7 +146,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8090/api/usuarios/usuarios/search/buscar-username?nombre=andres",
+					"raw": "localhost:8090/api/usuarios/usuarios/search/buscar-username?username=andres",
 					"host": [
 						"localhost"
 					],
@@ -160,7 +160,7 @@
 					],
 					"query": [
 						{
-							"key": "nombre",
+							"key": "username",
 							"value": "andres"
 						}
 					]
