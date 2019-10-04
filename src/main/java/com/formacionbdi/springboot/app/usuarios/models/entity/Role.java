@@ -21,6 +21,8 @@ public class Role implements Serializable {
 
 	@Column(unique = true, length = 30)
 	private String nombre;
+	
+	
 
 	public Long getId() {
 		return id;
