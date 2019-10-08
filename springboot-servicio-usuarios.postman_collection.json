@@ -28,10 +28,20 @@
 		{
 			"name": "lista por id usuario",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhbmRyZXMiLCJzY29wZSI6WyJyZWFkIiwid3JpdGUiXSwiYXBlbGxpZG8iOiJHdXptYW4iLCJjb3JyZW8iOiJwcm9mZXNvckBib2xzYWRlaWRlYXMuY29tIiwiZXhwIjoxNTcwNTcyNDExLCJub21icmUiOiJBbmRyZXMiLCJhdXRob3JpdGllcyI6WyJST0xFX1VTRVIiXSwianRpIjoiYzBlNDVkMWUtNDA1Ny00NzExLTgxM2YtNzMxYmFlM2ZmZjlhIiwiY2xpZW50X2lkIjoiZnJvbnRlbmRhcHAifQ.4U6vU8YjzU7gRi7W95h2QZ5Q6BQM4TBWr-R3k0k5nuw",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8090/api/usuarios/usuarios/3",
+					"raw": "localhost:8090/api/usuarios/usuarios/1",
 					"host": [
 						"localhost"
 					],
@@ -40,7 +50,7 @@
 						"api",
 						"usuarios",
 						"usuarios",
-						"3"
+						"1"
 					]
 				}
 			},
@@ -49,6 +59,16 @@
 		{
 			"name": "guardar usuario",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhcGVsbGlkbyI6InBvcnRpbGxhIiwiY29ycmVvIjoieWVoYW5wb3JAY2VpYmEuY29tIiwiZXhwIjoxNTcwNTcyNjc5LCJub21icmUiOiJ5ZWhhbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iLCJST0xFX1VTRVIiXSwianRpIjoiMTgwNjIwODQtMGEwZS00MmUzLTlmM2YtODdlODJkMWVhMzYxIiwiY2xpZW50X2lkIjoiZnJvbnRlbmRhcHAifQ.dumv0N-RWj2XQzhUyHlS2QeoDZ7zpS8OfazK5_qNIlU",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -122,10 +142,20 @@
 		{
 			"name": "eliminar usuario",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhcGVsbGlkbyI6InBvcnRpbGxhIiwiY29ycmVvIjoieWVoYW5wb3JAY2VpYmEuY29tIiwiZXhwIjoxNTcwNTcyNjc5LCJub21icmUiOiJ5ZWhhbiIsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iLCJST0xFX1VTRVIiXSwianRpIjoiMTgwNjIwODQtMGEwZS00MmUzLTlmM2YtODdlODJkMWVhMzYxIiwiY2xpZW50X2lkIjoiZnJvbnRlbmRhcHAifQ.dumv0N-RWj2XQzhUyHlS2QeoDZ7zpS8OfazK5_qNIlU",
+							"type": "string"
+						}
+					]
+				},
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:8090/api/usuarios/usuarios/3",
+					"raw": "localhost:8090/api/usuarios/usuarios/1",
 					"host": [
 						"localhost"
 					],
@@ -134,7 +164,7 @@
 						"api",
 						"usuarios",
 						"usuarios",
-						"3"
+						"1"
 					]
 				}
 			},
